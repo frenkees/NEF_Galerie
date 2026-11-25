@@ -2,6 +2,14 @@
 
 Windows aplikace pro fotografy: z RAW souborů Nikon (NEF) vytvoří **jeden samostatný HTML soubor**, ve kterém si klient vybere fotky k finální úpravě. Soubor funguje na PC i na Androidu, bez rozbalování a bez instalace.
 
+![Aplikace NEF Galerie s načtenou složkou](docs/screenshots/aplikace.webp)
+
+Vygenerovaná galerie, jak ji vidí klient (desktop a mobil):
+
+<img src="docs/screenshots/galerie-desktop.webp" alt="Galerie pro klienta – desktop" width="640"> <img src="docs/screenshots/galerie-mobile.webp" alt="Galerie pro klienta – mobil" width="180">
+
+*Screenshoty jsou z ukázkových dat: generované krajiny uložené jako testovací NEF soubory.*
+
 ## Co aplikace dělá
 - Načte složku s NEF a zobrazí náhledy. Jednotlivé soubory lze vyřadit z galerie.
 - Z NEFů vytáhne vložený JPEG náhled z fotoaparátu (RAW se nevyvolává) a otočí ho podle orientace.
